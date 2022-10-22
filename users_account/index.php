@@ -104,7 +104,7 @@ if(isset($_POST['submit'])){
       </div>
       <input type="submit" name="submit" id="submit" class="button btn-primary form-control mb-2" value="Submit"/>
     </form>
-    <p class="an_account">Alrady have an account? <a href="#">Sign in</a></p>
+    <p class="an_account">Alrady have an account? <a href="login.">Sign in</a></p>
   </div>
 
 
