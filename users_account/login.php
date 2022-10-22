@@ -25,20 +25,16 @@
 
         if (mysqli_connect) {
           $sql = "INSERT INTO users_id($username, $Password) VALUES('username','Password')";
+        }else{
+          ?>
+          <script>
+            alert('data not inserted');
+          </script>
+          <?php
         }
 
+
       }
-
-
-      <?php
-        $server_name = 'localhost';
-        $username = 'root';
-        $password = '';
-        $db_name = 'usersaccount';
-
-        $con = mysqli_connect($server_name, $username, $password, $db_name);
-
-      ?>
 
 
 
