@@ -22,20 +22,10 @@
         $password = $_POST['password'];
 
         $con = mysqli_connect($username, $password);
-
-        if (mysqli_connect) {
-          $sql = "INSERT INTO users_id($username, $Password) VALUES('username','Password')";
-        }else{
-          ?>
-          <script>
-            alert('data not inserted');
-          </script>
-          <?php
-        }
-
-
       }
-
+      <?php
+        echo 'hellow world';
+      ?>
 
 
      ?>
