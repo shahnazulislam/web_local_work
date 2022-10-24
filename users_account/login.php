@@ -23,16 +23,12 @@
 
         $con = mysqli_connect($username, $password);
       }
-      <?php
-        echo 'hellow world';
-      ?>
-
 
      ?>
     <div class="col-4 mx-auto">
       <div class="row">
         <h3 class="text-primary">Add Account</h3>
-        <form action="<?php echo $_SERVER["PHP_SELF"];?>" method="POST">
+        <form action="" method="POST">
           <div class="input-group-prepant d-flex my-3">
             <span class="input-group-text"><i class="fa fa-user"></i></span>
             <input type="text/email" class="form-control" name="username" placeholder="username phone email" required>
