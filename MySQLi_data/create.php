@@ -23,11 +23,11 @@
     if (isset($_POST['submit'])) {
         $name = mysqli_real_escape_string($db->link, $_POST['name']);
         $email = mysqli_real_escape_string($db->link, $_POST['email']);
-        $skill = mysqli_real_escape_string($db->link, $_POST['skill']);
+        $mySkill = mysqli_real_escape_string($db->link, $_POST['skill']);
         if ($name == '' || $email == '' || $skill = '') {
             $error = "field must not be empty !!";
         } else {
-            $query = "INSERT INTO tbl_user(name , email, skill) Values('$name', '$email', '$skill')";
+            $query = "INSERT INTO tbl_user(name , email, skill) Values('$name', '$email', '$mySkill')";
             $create = $db->insert($query);
         }
     }
