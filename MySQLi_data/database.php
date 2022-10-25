@@ -1,9 +1,9 @@
 <?php
 class Database{
     public $host   = DB_HOST;
-    public $user   = DB_HOST;
-    public $pass   = DB_HOST;
-    public $dbname = DB_HOST;
+    public $user   = DB_USER;
+    public $pass   = DB_PASS;
+    public $dbname = DB_NAME;
 
 
     public $link;
@@ -22,7 +22,7 @@ class Database{
         }
 
     }
-    //select or dead database
+    //select or read database
     public function select($query){
         $result = $this->link->query($query) or die ($this->link->error.__LINE__);
         if($result->num_rows > 0){
@@ -31,5 +31,15 @@ class Database{
             return false;
         }
     }
+
+    public function insert($query){
+        $insert_row = $this->link->query($query) or die ($this->link->error.__LINE__);
+        if($insert_row){
+            header("Location: index.php?msg=".urlencode('Data inserted successfully.'));
+            exit();
+        }else{
+            die("Error : (".$this->link->errno.")".$this->link->error);
+        }
+    }
 }
-?>
+?> s
