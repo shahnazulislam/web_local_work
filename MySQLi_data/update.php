@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -17,19 +17,30 @@
 
     ?>
 
+    
+    
+    
     <?php
-        $db = new Database();
-        if (isset($_POST['submit'])) {
-            $name    = mysqli_real_escape_string($db->link, $_POST['name']);
-            $email   = mysqli_real_escape_string($db->link, $_POST['email']);
-            $mySkill = mysqli_real_escape_string($db->link, $_POST['skill']);
-            if ($name == '' || $email == '' || $skill = '') {
-                $error = "field must not be empty !!";
-            } else {
-                $query  = "INSERT INTO tbl_user(name , email, skill) Values('$name', '$email', '$mySkill')";
-                $create = $db->insert($query);
-            }
+	    $id = $_GET['id'];
+	    $db = new Database();
+	    $query = "SELECT * FROM tbl_user WHERE id = ";
+	    $myData = $db->select->query($query)->fatch_assoc();
+	?>
+
+
+    <?php
+    $db = new Database();
+    if (isset($_POST['submit'])) {
+        $name    = mysqli_real_escape_string($db->link, $_POST['name']);
+        $email   = mysqli_real_escape_string($db->link, $_POST['email']);
+        $mySkill = mysqli_real_escape_string($db->link, $_POST['skill']);
+        if ($name == '' || $email == '' || $skill = '') {
+            $error = "field must not be empty !!";
+        } else {
+            $query  = "INSERT INTO tbl_user(name , email, skill) Values('$name', '$email', '$mySkill')";
+            $create = $db->insert($query);
         }
+    }
     ?>
     <?php
     if (isset($error)) {
@@ -41,7 +52,7 @@
         <table>
             <tr>
                 <td>Name</td>
-                <td><input class="form-control" type="text" name="name" placeholder="Please inter name"></td>
+                <td><input class="form-control" type="text" name="name" value="<?php echo ?>"></td>
             </tr>
             <tr>
                 <td>Gmail</td>
@@ -60,8 +71,7 @@
             </tr>
         </table>
     </form>
-    <a class="text-decoration-none" href="index.php">Go Back home</a>
-    <a class="text-decoration-none" href="update.php">Go Back </a>
+    <a class="text-decoration-none" href="index.php">Go Back</a>
     </div>
     
 </body>
