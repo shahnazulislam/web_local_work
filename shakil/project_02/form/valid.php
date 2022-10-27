@@ -1,0 +1,10 @@
+<?php
+    print($_POST['first_name'].'</br>');
+    print($_POST['last_name'].'</br>');
+    print($_POST['fathers_name'].'</br>');
+    print($_POST['mothers_name'].'</br>');
+    print($_POST['email'].'</br>');
+    print($_POST['hobby'].'</br>');
+    print($_POST['date_of_birth'].'</br>');
+    print($_POST['contuct'].'</br>');
+?>

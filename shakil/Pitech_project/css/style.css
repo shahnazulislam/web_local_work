@@ -1,0 +1,40 @@
+.Profile_image img{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    margin-left: 10px;
+}
+.heading{
+    height: 50px;
+    width: 100%;
+}
+.heading h3{
+    margin-top: 20px;
+    text-align: center;
+}
+.carousel-item Img{
+    height: 350px;
+}
+.heading div{
+    height: 5px;
+    width: 100px;
+    background-color: blue;
+    display: block;
+    margin: 0 auto;
+
+    
+}
+.card-img-top{
+    border: 1px solid rgb(189, 40, 40);
+    border-radius: 50%;
+
+}
+/*footer setion start*/
+.social_icon i{
+    background: rgb(192, 183, 183);
+    border-radius: 50%;
+    border: 4px double #fff;
+    padding: 0px 7px 3px 7px;
+    font-size: 30px;
+}
+/*footer setion end*/

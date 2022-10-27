@@ -31,7 +31,7 @@
       echo "<span style='color:red'>" . $error . "<span>";
     }
   ?>
-    <div class="col-md-6 mx-auto">
+   <div class="col-md-6 mx-auto">
     <form action="create.php" method="post">
       <table>
         <tr>
@@ -56,11 +56,4 @@
       </table>
     </form>
     <a class="text-decoration-none" href="index.php">Go Back</a>
-    </div>
-    <?php
-    $x=10;
-    $y=10;
-    if($x == $y){
-      echo "x and y both are semilaer"
-    }
-    ?>
+   </div>

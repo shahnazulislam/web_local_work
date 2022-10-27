@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <marquee behavior="" direction="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis atque reiciendis eius neque dolorum qui ipsam necessitatibus, praesentium commodi soluta esse iste nobis exercitationem quidem pariatur illo unde et doloremque sunt adipisci hic voluptatum accusamus fuga optio? Ex error voluptate magnam excepturi tempore, explicabo nemo facere eaque ea architecto id iure illo dolores ipsum iste sint maxime, a officiis temporibus corporis distinctio quia incidunt voluptatibus? Sint iste a doloribus delectus laudantium adipisci, id unde, expedita maiores nostrum dolores beatae laborum alias! Eligendi corporis inventore beatae optio quo explicabo totam, at suscipit enim, reiciendis, minima quibusdam harum ipsa maxime. Pariatur, ratione?</marquee>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quos ipsa quia ipsam vitae iste assumenda quo quod minima non minus accusantium repellendus necessitatibus, saepe modi, error nam deserunt enim. Odio illo deserunt sint possimus praesentium dignissimos necessitatibus architecto velit voluptatum nesciunt? Sit asperiores voluptates corporis maxime quasi dignissimos totam atque fuga voluptate dolorum? Tempora ducimus necessitatibus fugiat eius, est nihil ab vel unde blanditiis sapiente reiciendis animi magni sequi doloribus mollitia dolores eligendi. Dignissimos magni corrupti id tempora iste saepe labore dicta consequuntur repellat, officiis enim aliquam cum corporis accusamus exercitationem et qui, tempore aperiam reiciendis sapiente ex. Exercitationem!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quos ipsa quia ipsam vitae iste assumenda quo quod minima non minus accusantium repellendus necessitatibus, saepe modi, error nam deserunt enim. Odio illo deserunt sint possimus praesentium dignissimos necessitatibus architecto velit voluptatum nesciunt? Sit asperiores voluptates corporis maxime quasi dignissimos totam atque fuga voluptate dolorum? Tempora ducimus necessitatibus fugiat eius, est nihil ab vel unde blanditiis sapiente reiciendis animi magni sequi doloribus mollitia dolores eligendi. Dignissimos magni corrupti id tempora iste saepe labore dicta consequuntur repellat, officiis enim aliquam cum corporis accusamus exercitationem et qui, tempore aperiam reiciendis sapiente ex. Exercitationem!</p>
+</body>
+</html>
