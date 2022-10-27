@@ -5,23 +5,29 @@
   ?>
     
   <?php
-	  $id = $_GET['id'];
-	  $db = new Database();
-	  $query = "SELECT * FROM tbl_user WHERE id = $id";
-	  $myData = $db->select->query($query)->fatch_assoc();
-	?>
-  
-  <?php
-    $db = new Database();
+	  $id      = $_GET['id'];
+	  $db      = new Database();
+	  $query   = "SELECT * FROM tbl_user WHERE $id = id";
+	  $getData = $db->select->query($query)->fatch_assoc();
+    
     if (isset($_POST['submit'])) {  
         $name    = mysqli_real_escape_string($db->link, $_POST['name']);
         $email   = mysqli_real_escape_string($db->link, $_POST['email']);
-        $mySkill = mysqli_real_escape_string($db->link, $_POST['skill']);
+        $skill   = mysqli_real_escape_string($db->link, $_POST['skill']);
         if ($name == '' || $email == '' || $skill = '') {
-            $error = "field must not be empty !!";
+            ?>
+            <script>
+              alert('field must not be empty !!');
+            </script>
+            <?php
         } else {
-            $query  = "INSERT INTO tbl_user(name , email, skill) Values('$name', '$email', '$mySkill')";
-            $create = $db->insert($query);
+            $query  = "UPDATE tbl_user
+              GET
+              name     = '$name',
+              email    = '$email',
+              skill    = '$skill',
+              WHERE id = $id";
+              $update  = $db->update($query);
         }
     }
   ?>
@@ -32,19 +38,19 @@
     }
   ?>
    <div class="col-md-6 mx-auto">
-    <form action="create.php" method="post">
+    <form action="update.php?id = <?php echo $id ?>" method="post">
       <table>
         <tr>
           <td>Name</td>
-          <td><input class="form-control" type="text" name="name" value="<?php echo $_GET['id'] ?>"></td>
+          <td><input class="form-control" type="text" name="name" value="<?php echo $getData['name'] ?>"></td>
         </tr>
         <tr>
-          <td>Gmail</td>
-          <td><input class="form-control" type="text" name="email" placeholder="Please inter email"></td>
+          <td>Email</td>
+          <td><input class="form-control" type="text" name="email" value="<?php echo $getData['email'] ?>"></td>
         </tr>
         <tr>
           <td>Skill</td>
-          <td><input class="form-control" type="text" name="skill" placeholder="Please inter skill"></td>
+          <td><input class="form-control" type="text" name="skill" value="<?php echo $getData['skill'] ?>"></td>
         </tr>
         <tr>
           <td></td>

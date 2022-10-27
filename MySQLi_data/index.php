@@ -10,7 +10,7 @@
 ?>
 <?php
     if(isset($_GET['msg'])){
-    echo "<span style='color:red'>".$_GET['msg']."<span>";
+    echo "<span style='color:green'>".$_GET['msg']."<span>";
     }
 ?>
 <table border="1">
@@ -26,7 +26,7 @@
     <td><?php echo $row['name']; ?></td>
     <td><?php echo $row['email']; ?></td>
     <td><?php echo $row['skill']; ?></td>
-    <td><a href="update.php?id=<?php echo urlencode($row['id']); ?>">edit</a></td>
+    <td><a href="update.php?id=<?php echo urlencode($row['id']); ?>">Edit</a></td>
   </tr>
   <?php } ?>
   <?php }  else { ?>
@@ -34,5 +34,4 @@
   <?php } ?>
 </table>
 <a href="create.php">Go create</a>
-<a href="update.php">Go update</a>
 

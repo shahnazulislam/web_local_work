@@ -1,5 +1,5 @@
 <?php
-class Database{
+  class Database{
     public $host   = DB_HOST;
     public $user   = DB_USER;
     public $pass   = DB_PASS;
@@ -10,7 +10,7 @@ class Database{
     public $error;
 
     public function __construct() {
-        $this->connectDB();
+      $this->connectDB();
     }
 
 
@@ -22,7 +22,7 @@ class Database{
         }
 
     }
-    //select or read database
+    //select or read data
     public function select($query){
         $result = $this->link->query($query) or die ($this->link->error.__LINE__);
         if($result->num_rows > 0){
@@ -31,7 +31,7 @@ class Database{
             return false;
         }
     }
-
+    //insert data
     public function insert($query){
         $insert_row = $this->link->query($query) or die ($this->link->error.__LINE__);
         if($insert_row){
@@ -40,6 +40,16 @@ class Database{
         }else{
             die("Error : (".$this->link->errno.")".$this->link->error);
         }
+    }
+    //update data
+    public function update($query){
+      $insert_row = $this->link->query($query) or die ($this->link->error.__LINE__);
+      if($insert_row){
+        header("Location: index.php?msg=".urlencode('Data update successfully.'));
+        exit();
+      }else{
+        die("Error : (".$this->link->errno.")".$this->link->error);
+      }
     }
 }
 ?> 
