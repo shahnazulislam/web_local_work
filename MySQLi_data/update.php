@@ -57,3 +57,10 @@
     </form>
     <a class="text-decoration-none" href="index.php">Go Back</a>
     </div>
+    <?php
+    $x=10;
+    $y=10;
+    if($x == $y){
+      echo "x and y both are semilaer"
+    }
+    ?>
