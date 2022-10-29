@@ -13,8 +13,8 @@
     echo "<span style='color:green'>".$_GET['msg']."<span>";
     }
 ?>
-<table border="1">
-  <tr>
+<table class="border mx-auto">
+  <tr class="text-center">
     <th width="25%">Name</th>
     <th width="25%">Email</th>
     <th width="25%">Skill</th>
@@ -22,16 +22,15 @@
   </tr>
   <?php if($read) { ?>
   <?php while($row = $read->fetch_assoc()) {?>
-  <tr>
-    <td><?php echo $row['name']; ?></td>
-    <td><?php echo $row['email']; ?></td>
-    <td><?php echo $row['skill']; ?></td>
-    <td><a href="update.php?id=<?php echo urlencode($row['id']); ?>">Edit</a></td>
+  <tr class="text-center">
+    <td class="border "><?php echo $row['name']; ?></td>
+    <td class="border"><?php echo $row['email']; ?></td>
+    <td class="border"><?php echo $row['skill']; ?></td>
+    <td class="border"><a href="update.php?id=<?php echo urlencode($row['id']); ?>">Edit</a></td>
   </tr>
   <?php } ?>
   <?php }  else { ?>
   <h1>data is not avilable</h1>
   <?php } ?>
 </table>
-<a href="create.php">Go create</a>
-
+<a href="create.php" class="btn btn-outline-primary">Go create</a>
