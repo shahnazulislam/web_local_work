@@ -1,7 +1,7 @@
-2022-10-27T08:57:23.191787Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
-2022-10-27T08:57:25.271743Z 0 [Warning] InnoDB: New log files created, LSN=45790
-2022-10-27T08:57:25.812020Z 0 [Warning] InnoDB: Creating foreign key constraint system tables.
-2022-10-27T08:57:26.014305Z 0 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 60e0620d-55d5-11ed-86ab-c46516e59c5c.
-2022-10-27T08:57:26.075808Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
-2022-10-27T08:57:28.322222Z 0 [Warning] CA certificate ca.pem is self signed.
-2022-10-27T08:57:28.609659Z 1 [Warning] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2022-10-29T16:02:06.002319Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-10-29T16:02:08.364872Z 0 [Warning] InnoDB: New log files created, LSN=45790
+2022-10-29T16:02:09.016843Z 0 [Warning] InnoDB: Creating foreign key constraint system tables.
+2022-10-29T16:02:09.242369Z 0 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 0ae507b4-57a3-11ed-8152-c46516e59c5c.
+2022-10-29T16:02:09.297123Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2022-10-29T16:02:11.201661Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-10-29T16:02:11.713056Z 1 [Warning] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
