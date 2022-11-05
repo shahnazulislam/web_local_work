@@ -18,9 +18,4 @@ $marks=[
     ],
 ]
 
-for ($marks=0; $marks < ; $marks++) { 
-    for ($marks=0; $marks < ; $marks++) { 
-        shakil
-    };
-}
 ?>
