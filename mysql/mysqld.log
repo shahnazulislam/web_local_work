@@ -199,3 +199,79 @@ Version: '5.7.33'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2022-11-05T09:19:31.604660Z 0 [Note] C:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: ready for connections.
 Version: '5.7.33'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2022-11-05T09:21:13.705363Z 2 [Note] Unknown database 'userdata'
+2022-11-05T17:14:45.021420Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-11-05T17:14:45.028936Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-11-05T17:14:45.029292Z 0 [Note] C:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld (mysqld 5.7.33) starting as process 4948 ...
+2022-11-05T17:14:45.239793Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-11-05T17:14:45.240779Z 0 [Note] InnoDB: Uses event mutexes
+2022-11-05T17:14:45.241935Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-11-05T17:14:45.242415Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-11-05T17:14:45.250386Z 0 [Note] InnoDB: Number of pools: 1
+2022-11-05T17:14:45.254450Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-11-05T17:14:45.267524Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-11-05T17:14:45.283984Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-11-05T17:14:45.487107Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-11-05T17:14:45.525908Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2747685
+2022-11-05T17:14:45.526588Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2747694
+2022-11-05T17:14:45.527707Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-11-05T17:14:45.528121Z 0 [Note] InnoDB: Starting crash recovery.
+2022-11-05T17:14:46.548871Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-11-05T17:14:46.549574Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-11-05T17:14:46.550943Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-11-05T17:14:46.822101Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-11-05T17:14:47.012200Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-11-05T17:14:47.013234Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-11-05T17:14:47.014961Z 0 [Note] InnoDB: Waiting for purge to start
+2022-11-05T17:14:47.110038Z 0 [Note] InnoDB: 5.7.33 started; log sequence number 2747694
+2022-11-05T17:14:47.118568Z 0 [Note] InnoDB: Loading buffer pool(s) from G:\web_local_work\mysql\ib_buffer_pool
+2022-11-05T17:14:47.119362Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-11-05T17:14:47.453494Z 0 [Note] InnoDB: Buffer pool(s) load completed at 221105 23:14:47
+2022-11-05T17:14:47.526086Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-11-05T17:14:47.529415Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-11-05T17:14:47.604143Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-11-05T17:14:47.604974Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-11-05T17:14:47.627852Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-11-05T17:14:47.629265Z 0 [Note] IPv6 is available.
+2022-11-05T17:14:47.629743Z 0 [Note]   - '::' resolves to '::';
+2022-11-05T17:14:47.630283Z 0 [Note] Server socket created on IP: '::'.
+2022-11-05T17:14:49.937059Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-11-05T17:14:49.937746Z 0 [Note] C:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: ready for connections.
+Version: '5.7.33'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-11-06T06:01:34.585006Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-11-06T06:01:34.585665Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-11-06T06:01:34.585700Z 0 [Note] C:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld (mysqld 5.7.33) starting as process 11100 ...
+2022-11-06T06:01:34.644629Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-11-06T06:01:34.645135Z 0 [Note] InnoDB: Uses event mutexes
+2022-11-06T06:01:34.645470Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2022-11-06T06:01:34.645946Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-11-06T06:01:34.646667Z 0 [Note] InnoDB: Number of pools: 1
+2022-11-06T06:01:34.647089Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-11-06T06:01:34.651045Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-11-06T06:01:34.657924Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-11-06T06:01:34.781508Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-11-06T06:01:34.798592Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2747713
+2022-11-06T06:01:34.799068Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2747722
+2022-11-06T06:01:34.799557Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-11-06T06:01:34.799933Z 0 [Note] InnoDB: Starting crash recovery.
+2022-11-06T06:01:36.035356Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-11-06T06:01:36.035813Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-11-06T06:01:36.036604Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-11-06T06:01:36.232221Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-11-06T06:01:36.340867Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-11-06T06:01:36.341601Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-11-06T06:01:36.342510Z 0 [Note] InnoDB: Waiting for purge to start
+2022-11-06T06:01:36.415127Z 0 [Note] InnoDB: 5.7.33 started; log sequence number 2747722
+2022-11-06T06:01:36.416558Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-11-06T06:01:36.416792Z 0 [Note] InnoDB: Loading buffer pool(s) from G:\web_local_work\mysql\ib_buffer_pool
+2022-11-06T06:01:36.588295Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-11-06T06:01:36.589064Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-11-06T06:01:36.599979Z 0 [Note] InnoDB: Buffer pool(s) load completed at 221106 12:01:36
+2022-11-06T06:01:36.604839Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-11-06T06:01:36.605291Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-11-06T06:01:36.613765Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-11-06T06:01:36.614361Z 0 [Note] IPv6 is available.
+2022-11-06T06:01:36.614649Z 0 [Note]   - '::' resolves to '::';
+2022-11-06T06:01:36.614981Z 0 [Note] Server socket created on IP: '::'.
+2022-11-06T06:01:37.430585Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-11-06T06:01:37.431062Z 0 [Note] C:\laragon\bin\mysql\mysql-5.7.33-winx64\bin\mysqld: ready for connections.
+Version: '5.7.33'  socket: ''  port: 3306  MySQL Community Server (GPL)
