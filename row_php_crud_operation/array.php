@@ -147,7 +147,7 @@ $Marks =[
 print_r ($Marks);
 echo "</pre>";*/
 
-echo "<table cellpadding='5' cellspacing='0' border='5px'>";
+/*echo "<table cellpadding='5' cellspacing='0' border='5px'>";
 echo "<th>Student Name</th>";
 echo "<th>Physic Marks</th>";
 echo "<th>Chamistry Marks</th>";
@@ -160,7 +160,33 @@ foreach ($Marks as $key => $value) {
   }
   echo "</tr>";
 }
-echo "</table>";
+echo "</table>";*/
+
+
+
+// $a = 10.55;
+// $b = 3;
+
+// $c = $a + $b;
+
+// echo $c;
+
+// $a = 10.55;
+// $b = 3;
+
+// $c = $a - $b;
+
+// echo $c;
+
+// $a = 10;
+// $b = 3;
+
+// $c = $a / $b;
+
+// echo $c;
+
+
+
 
 // php end here
 ?>
