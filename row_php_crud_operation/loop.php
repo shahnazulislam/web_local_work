@@ -74,12 +74,62 @@ echo "</table>";*/
   echo $a . "<br>";
 }*/
 
-for ($a=1; $a <= 10; $a++) { 
+/*for ($a=1; $a <= 10; $a++) { 
   if ($a == 3) {
     echo "shakil <br>";
     break;
   }
   echo $a . "<br>";
+}*/
+
+/*echo "Hello Shakil How Are You? <br>";
+echo "Hello Shakil How Are You? <br>";
+goto php;
+echo "Hello Shakil How Are You? <br>";
+echo "Hello Shakil How Are You? <br>";
+echo "Hello Shakil How Are You? <br>";
+php:
+echo "Block all echo code in this statment. <br>";*/
+
+
+//php function
+/*function hello(){
+  echo "hello everybody <br>";
 }
+
+hello();
+hello();
+hello();
+hello();
+hello();*/
+
+//function with parameters
+
+/*function hello($fname="First",$lname="Last")//pass difault value first and last
+{
+  echo "hello $fname $lname.<br>";
+}
+
+hello();
+hello("Shahnazul", "Islam");*/
+
+/*function work($firstname, $lastname){
+  echo "Hello $firstname, $lastname <br>";
+}
+
+function sum($a, $b){
+  echo $a + $b ."<br>";
+}
+
+$one=10;
+$two=20;
+
+sum($one, $two)*/
+
+
+//function with returning value
+
+
+
 
 ?>
