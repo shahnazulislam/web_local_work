@@ -123,7 +123,7 @@ foreach ($emp as $value) {
 }
 echo "</table>";*/
 
-
+/* 
 
 $Marks = [
   "Shakil" => [
@@ -141,13 +141,13 @@ $Marks = [
     "Chamistry" =>  68,
     "Math"   =>  78,
   ]
-];
+]; */
 // array print function
 /*echo "<pre>";
 print_r ($Marks);
 echo "</pre>";*/
 
-echo "<table cellpadding='5' cellspacing='0' border='5px'>";
+/* echo "<table cellpadding='5' cellspacing='0' border='5px'>";
 echo "<th>Student Name</th>";
 echo "<th>Physic Marks</th>";
 echo "<th>Chamistry Marks</th>";
@@ -160,9 +160,65 @@ foreach ($Marks as $key => $value) {
   }
   echo "</tr>";
 }
-echo "</table>";
-echo '<br/>';
-echo '<br/>';
+  echo "</table>";*/
 
+
+  
+ 
 // php end here
 ?>
+
+<?php 
+//array pop and push
+
+  /*$frute = ["orange","banana","grapes"];*/
+
+
+ /* array_push($frute, "banana",);
+  echo '<pre>';
+  print_r($frute);
+  echo '</pre>';  */
+
+/*  array_pop($frute);
+
+  echo '<pre>';
+  print_r($frute);
+  echo '</pre>';
+*/
+
+ ?> 
+
+<?php 
+  //array shift and array unshift
+/* $frute = ["orange","banana","grapes"];
+  array_shift($frute);
+
+  echo '<pre>';
+  print_r($frute);
+  echo '</pre>';  */
+?>
+
+<?php 
+ /* 
+  $frute = ["orange","banana"];
+  $veg = ["carrot","paw"];
+  //$newArray = array_merge($frute, $veg);
+  $newArray = array_combine($frute, $veg);//variable er value same hote hobe ta na hole error ashbe
+
+
+  echo '<pre>';
+  print_r($newArray);
+  echo '</pre>';*/
+ ?>
+
+ <?php 
+  //php array_slice
+/*
+  $color = ["red","blue","green","pink"];
+
+  $newArray = array_slice($color, 1,2);
+
+  echo '<pre>';
+  print_r($newArray);
+  echo '</pre>';*/
+ ?>

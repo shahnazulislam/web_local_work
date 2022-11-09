@@ -1,6 +1,6 @@
 
 <?php
-$row = 5;
+/* $row = 5;
 for ($i = 1; $i <= $row; $i++) {
     for ($k = $i; $k < $row; $k++) {
         print "&nbsp;&nbsp;";
@@ -13,7 +13,7 @@ for ($i = 1; $i <= $row; $i++) {
         }
     }
     echo "<br>";
-}
+} */
 
 ?>
 
