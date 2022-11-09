@@ -60,7 +60,7 @@
 
 
 //array for php
-$colors =["red", 20, "blue", 12.50];
+$colors = ["red", 20, "blue", 12.50];
 
 /*echo $colors[0] ."<br>";
 echo $colors[1] ."<br>";
@@ -125,21 +125,21 @@ echo "</table>";*/
 
 
 
-$Marks =[
-  "Shakil"=>[
-       "Physic"  =>  76,
+$Marks = [
+  "Shakil" => [
+    "Physic"  =>  76,
     "Chamistry"  =>  68,
-         "Math"  =>  78,
+    "Math"  =>  78,
   ],
-  "Sumon"=>[
-       "Physic"  =>  76,
+  "Sumon" => [
+    "Physic"  =>  76,
     "Chamistry"  =>  68,
-         "Math"  =>  78,
+    "Math"  =>  78,
   ],
-  "Saikat"=>[
-      "Physic"  =>  76,
+  "Saikat" => [
+    "Physic"  =>  76,
     "Chamistry" =>  68,
-       "Math"   =>  78,
+    "Math"   =>  78,
   ]
 ];
 // array print function
@@ -147,7 +147,7 @@ $Marks =[
 print_r ($Marks);
 echo "</pre>";*/
 
-/*echo "<table cellpadding='5' cellspacing='0' border='5px'>";
+echo "<table cellpadding='5' cellspacing='0' border='5px'>";
 echo "<th>Student Name</th>";
 echo "<th>Physic Marks</th>";
 echo "<th>Chamistry Marks</th>";
@@ -160,33 +160,7 @@ foreach ($Marks as $key => $value) {
   }
   echo "</tr>";
 }
-echo "</table>";*/
-
-
-
-// $a = 10.55;
-// $b = 3;
-
-// $c = $a + $b;
-
-// echo $c;
-
-// $a = 10.55;
-// $b = 3;
-
-// $c = $a - $b;
-
-// echo $c;
-
-// $a = 10;
-// $b = 3;
-
-// $c = $a / $b;
-
-// echo $c;
-
-
-
+echo "</table>";
 
 // php end here
 ?>
