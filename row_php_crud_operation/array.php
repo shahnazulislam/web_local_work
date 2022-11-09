@@ -161,6 +161,8 @@ foreach ($Marks as $key => $value) {
   echo "</tr>";
 }
 echo "</table>";
+echo '<br/>';
+echo '<br/>';
 
 // php end here
 ?>
