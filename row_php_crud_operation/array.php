@@ -222,3 +222,65 @@ foreach ($Marks as $key => $value) {
   print_r($newArray);
   echo '</pre>';*/
  ?>
+
+
+<?php 
+
+/*$color = ["red", "yellow", "green",];
+
+array_splice($color, 1, -2);
+echo '<pre>';
+print_r($color);
+echo '</pre>';
+*/
+
+
+/*$color = [
+  "first" => "red",
+  "second" => "green",
+  "third" => "blue",
+  "fourth" => "yellow",
+];
+$newArray =key_exists("third", $color);
+
+if ($newArray){
+  echo "file exist";
+}else{
+  echo "file didn't exists";
+}
+
+echo '<pre>';
+print_r($newArray);
+echo '</pre>';*/
+
+$friend =[
+          "first" => "sumon",
+          "second" => "shariful",
+          "third" => "sujon",
+          "fourth" => "sowhardo",
+];
+$Nfriend =[
+          "first" => "jibon",
+          "second" => "monokai",
+          "third" => "samad",
+          "fourth" => "harun",
+];
+$newArray = array_intersect($friend, $Nfriend);
+
+echo '<pre>';
+print_r($newArray);
+echo '</pre>';
+
+$shakil = [
+  ["shakil" => "shajjad"],
+  ["sujon" => "raseel"],
+  ["mamun" => "Rana"],
+  ["shahin" => "himul"],
+
+];
+echo "<pre>";
+print_r($shakil);
+echo "<pre>";
+?>
+
+
