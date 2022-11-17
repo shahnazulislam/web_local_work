@@ -19,6 +19,7 @@
 */
 
 	echo $row['first_name']. " ". $row['last_name'];
+  echo "<br>";
 	
 
  ?>
