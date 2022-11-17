@@ -15,11 +15,36 @@
 
     // echo filetype("../mysql");
 
-
     // echo realpath("loop.php");
-    $path = realpath($file);
+    // $path = realpath($file);
 
-    echo "<pre>";
-    print_r (pathinfo($path, PATHINFO_FILENAME));
-    echo "</pre>";
-    ?>
+    // echo basename($path);
+    // echo dirname($path,1);
+
+    // echo "<pre>";
+    // print_r (pathinfo($path, PATHINFO_FILENAME));
+    // echo "</pre>";
+
+
+/* 
+    fopan(),
+    fread(),
+    fgets(),
+    ftell(),
+    fseek(),
+    fpassthru(),
+    rewind(),
+    feof(),
+    file(),
+    fgetc(),
+    fwrite(),
+    fputs(),
+    fclose(),
+    ftruncate(), 
+    
+ */
+
+//  echo substr(decoct(fileperms("readfile.txt")),2);
+ chmod("readfile.txt", 0644);
+    
+?>
