@@ -1,15 +1,9 @@
 <?php
 include "link.php";
+include "config.php";
 ?>
 
 <?php
-$hostname = "localhost";
-$username = "root";
-$pass     = "";
-$dbname   = "test";
-
-$conn = mysqli_connect($hostname, $username, $pass, $dbname) or die("mysqli connection faild");
-
 $sql = "SELECT * FROM student";
 
 $result = mysqli_query($conn, $sql) or die("Query faild");
@@ -26,8 +20,7 @@ if (mysqli_num_rows($result) > 0) {
     while ($row = mysqli_fetch_assoc($result)) {
         $output .= "<tr>
                 <td class='border'>{$row["id"]}</td>
-                <td class='border'>{$row["name"]}
-                </td>
+                <td class='border'>{$row["first_name"]} {$row["last_name"]}</td>
                 </tr>";
     }
 
